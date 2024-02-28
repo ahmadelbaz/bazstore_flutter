@@ -6,6 +6,9 @@ class ColorManager {
   static const Color light = Color(0xFFFDF8F1);
   static const Color dark = Color(0xFF223263);
   static const Color grey = Color(0xFF9098B1);
+  static const Color grey1 = Color(0xff707070);
+  static const Color grey2 = Color(0xff797979);
+  static const Color grey3 = Color(0xffEEEEEE);
   static const Color white = Colors.white;
   static const Color black = Colors.black;
   static const Color red = Colors.red;

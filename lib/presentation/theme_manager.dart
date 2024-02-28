@@ -1,0 +1,39 @@
+import 'package:bazstore_flutter/presentation/color_manager.dart';
+import 'package:bazstore_flutter/presentation/font_manager.dart';
+import 'package:flutter/material.dart';
+
+ThemeData getApplicationTheme() {
+  return ThemeData(
+    // Main Colors
+
+    primaryColor: ColorManager.primary,
+    primaryColorLight: ColorManager.white,
+    primaryColorDark: ColorManager.darkPrimary,
+    disabledColor: ColorManager.grey1,
+    splashColor: ColorManager.light,
+    fontFamily: FontConstants.fontFamily,
+    colorScheme: const ColorScheme(
+      primary: ColorManager.primary, // Done
+      surface: ColorManager.white, // Done
+      background: ColorManager.white,
+      brightness: Brightness.light, // Done
+      error: ColorManager.red,
+      onBackground: ColorManager.light, // Done
+      onError: Colors.purple,
+      onPrimary: ColorManager.white, // Done
+      onSecondary: Colors.white, // Done
+      onSurface: ColorManager.grey, // Done
+      secondary: ColorManager.darkPrimary,
+    ),
+
+    // Card view theme
+
+    // App bar theme
+
+    // Button theme
+
+    // Text theme
+
+    // Input decoration theme
+  );
+}
