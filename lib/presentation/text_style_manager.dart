@@ -42,7 +42,7 @@ TextStyle getSemiBoldTextStyle(
 
 // Medium Text Style
 
-TextStyle mediumTextStyle(
+TextStyle getMediumTextStyle(
     {double fontSize = 12.0,
     Color color = ColorManager.black,
     String fontFamily = FontConstants.fontFamily}) {
@@ -55,7 +55,7 @@ TextStyle mediumTextStyle(
 
 // Regular Text Style
 
-TextStyle regularTextStyle(
+TextStyle getRegularTextStyle(
     {double fontSize = 12.0,
     Color color = ColorManager.black,
     String fontFamily = FontConstants.fontFamily}) {
@@ -68,7 +68,7 @@ TextStyle regularTextStyle(
 
 // Light Text Style
 
-TextStyle lightTextStyle(
+TextStyle getLightTextStyle(
     {double fontSize = 12.0,
     Color color = ColorManager.black,
     String fontFamily = FontConstants.fontFamily}) {

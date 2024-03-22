@@ -1,5 +1,6 @@
 import 'package:bazstore_flutter/presentation/color_manager.dart';
 import 'package:bazstore_flutter/presentation/font_manager.dart';
+import 'package:bazstore_flutter/presentation/text_style_manager.dart';
 import 'package:bazstore_flutter/presentation/value_manager.dart';
 import 'package:flutter/material.dart';
 
@@ -35,6 +36,17 @@ ThemeData getApplicationTheme() {
       elevation: AppSizes.s4,
     ),
     // App bar theme
+    appBarTheme: AppBarTheme(
+      backgroundColor: ColorManager.primary,
+      centerTitle: true,
+      color: ColorManager.white,
+      elevation: AppSizes.s4,
+      shadowColor: ColorManager.light,
+      titleTextStyle: getRegularTextStyle(
+        fontSize: FontSize.s16,
+        color: ColorManager.white,
+      ),
+    ),
 
     // Button theme
 
