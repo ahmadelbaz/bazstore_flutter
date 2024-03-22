@@ -1,5 +1,5 @@
-import 'package:bazstore_flutter/presentation/color_manager.dart';
-import 'package:bazstore_flutter/presentation/font_manager.dart';
+import 'package:bazstore_flutter/presentation/resources/color_manager.dart';
+import 'package:bazstore_flutter/presentation/resources/font_manager.dart';
 import 'package:flutter/material.dart';
 
 TextStyle _getTextStyle(

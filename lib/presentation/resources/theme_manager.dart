@@ -1,7 +1,7 @@
-import 'package:bazstore_flutter/presentation/color_manager.dart';
-import 'package:bazstore_flutter/presentation/font_manager.dart';
-import 'package:bazstore_flutter/presentation/text_style_manager.dart';
-import 'package:bazstore_flutter/presentation/value_manager.dart';
+import 'package:bazstore_flutter/presentation/resources/color_manager.dart';
+import 'package:bazstore_flutter/presentation/resources/font_manager.dart';
+import 'package:bazstore_flutter/presentation/resources/text_style_manager.dart';
+import 'package:bazstore_flutter/presentation/resources/value_manager.dart';
 import 'package:flutter/material.dart';
 
 ThemeData getApplicationTheme() {
